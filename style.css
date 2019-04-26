@@ -1,0 +1,388 @@
+/* 
+	Theme Color 
+	#5F3D81, #339966, #B2B0B0, #2DA636, dodgerBlue 
+*/
+
+* {
+	font-family: sans-serif;
+}
+
+
+body { 
+	margin: 0 auto;
+	padding: 0;
+	background: #eee;
+}
+
+#header {
+	margin: 0;
+	padding: 0;
+	background: #5F3D81;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	top: 0;
+	box-shadow: 0 0 2px 0 #000;
+	border-top: 3px solid #2DA636; 
+}
+.nav { 
+	/*
+		Desktop view and all large screens above 900px
+		The Nagation bar padding li elements
+	*/
+	padding: 10px;
+	max-width: 80%;
+	margin: 0 auto;
+}
+.nav ul {
+	margin: 0;
+	padding: 0;
+}
+.nav li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px 0;
+}
+.nav li .nav-link {
+	color: #eee;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 5px 10px;
+	margin: 0;
+}
+.nav li .nav-link:hover {
+	background: rgba(0,0,0,0.1);
+	border-radius: 3px;
+}
+.nav li .nav-icon {
+	color: #ccc;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 0;
+	margin: 0 15px;
+}
+
+
+.nav li .nav-icon:hover { color: #fff; }
+.nav li .nav-brand {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 0;
+	margin: 0 10px;
+}
+.nav li form input[type="search"] {
+	padding: 3px 8px;
+	font-size: 13px;
+	border-radius: 3px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	width: 250px;
+}
+.right { float: right; }
+
+#content {
+	/*
+		Desktop view and all large screens above 900px
+		The Nagation bar padding li elements
+	*/
+	max-width: 75%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+#wall {
+	width: 65%;
+	margin: 1% 0;	
+	float: right;
+	padding: 2px;
+	max-height: 590px;
+}
+.scroll-y {
+	overflow: none;
+	overflow-y: scroll;
+}
+.scroll-x {
+	overflow: none;
+	overflow-x: scroll;
+}
+#sidebar {
+	width: 33%;
+	margin: 1% 0;
+	float: left;
+	padding: 2px;
+}
+.pro-pic-1 img {
+	width: 50px;
+	height: 50px;
+	border-radius: 3px;
+}
+.pro-pic-3 img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+}
+.user li {
+	list-style-type: none;
+	display: inline-block;
+}
+.user-name-1 {
+	position: relative;
+	top: -10px;
+}
+.user-name-3 {
+	position: relative;
+	top: -9px;
+}
+.username {
+	text-decoration: none;
+	color: #000;
+	font-weight: 400;
+	font-size: 15px;
+}
+.footer {
+	color: #B2B0B0;
+	font-size: 12px;
+}
+.footer .nav-footer {
+	margin-bottom: 10px;
+}
+.footer .nav-footer ul {
+	margin: 0;
+	padding: 0;
+}
+.footer .nav-footer li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px 0;
+}
+.footer .nav-footer li a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #B2B0B0;
+}
+.container {
+	border-radius: 3px;
+	margin: 15px 0;
+	padding: 10px;
+}
+.b-sm { border: 1px solid #ccc; }
+.container .nav-header {
+	margin: 0;
+	padding: 0;
+}
+.container .nav-header li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	color: #7F7F7F;
+}
+.container .nav-header li a {
+	text-decoration: none;
+	color: #666666;
+}
+.container .nav-header li a:hover { color: #3F3E3E; }
+.container-fluid {
+	border-radius: 3px;
+	margin: 15px 0;
+}
+
+.container-fluid .nav-header {
+	margin: 0;
+	padding: 0;
+}
+.container-fluid .nav-header li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 7px 10px 2px 10px;
+	margin: 0;
+	font-size: 15px;
+	color: #7F7F7F;
+}
+.container-fluid .nav-header li a {
+	text-decoration: none;
+	color: #666666;
+}
+.container-fluid .nav-header li a:hover {
+	color: #3F3E3E;
+}
+.bg-light {
+	background: #fff;
+}
+.user {
+	padding: 0;
+	margin: 0;
+}
+.logout-link a {
+	color: #7F7F7F;
+	font-size: 14px;
+	text-decoration: none;
+}
+.logout-link a:hover {
+	color: #3F3E3E;
+}
+.user .nav-icon a {
+	font-size: 20px;
+	color: #B2B0B0;
+}
+.user .nav-icon a:hover {
+	
+	color: #5F3D81;
+}
+.friend-list{
+	max-height: 370px;
+}
+.suggested-friends .friend, .friend-list .friend {
+	padding: 10px;
+	margin: 0;
+}
+.pro-pic-2 img {
+	width: 38px;
+	height: 38px;
+	border-radius: 50px;
+}
+.suggested-friends .friend li, .friend-list .friend li {
+	list-style-type: none;
+	display: inline-block;
+}
+.suggested-friends .friend .username, .friend-list .friend .username {
+	position: relative;
+	top: -4px;
+}
+.user .view-profile a {
+	color: #7F7F7F;
+	font-size: 13px;
+	text-decoration: none;
+}
+.suggested-friends .friend .add-friend a {
+	position: relative;
+	top: 10px;
+	background: dodgerBlue;
+	color: #fff;
+	font-size: 14px;
+	padding: 4px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+.suggested-friends .friend li {
+	list-style-type: none;
+	display: inline-block;
+}
+.suggested-friends .friend .suggested-username {
+	position: relative;
+	top: -4px;
+}
+.user .view-profile a {
+	color: #7F7F7F;
+	font-size: 13px;
+	text-decoration: none;
+}
+.suggested-friends .friend .add-friend a {
+	position: relative;
+	top: 10px;
+	background: dodgerBlue;
+	color: #fff;
+	font-size: 13px;
+	padding: 5px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+.b-5 {
+	border: 4px solid rgba(0, 0, 0, 0.2);
+}
+
+.b-1 { border: 1px solid #ccc; } 
+.bb-1 { border-bottom: 1px solid #ccc; }
+.bt-1 { border-top: 1px solid #ccc; }
+.p-5 { padding: 5px; }
+.mx-h-530 { max-height: 530px; }
+
+.left {
+	float: left;
+}
+
+
+.cancel-req a {
+	position: relative;
+	background: #aaa;
+	padding: 5px;
+	text-decoration: none;
+	color: #fff;
+	top: 12px;
+	font-size: 14px;
+	margin: 3px;
+}
+.cancel-req a:hover { background: #ccc; }
+.accept-req a {
+	position: relative;
+	background: #aaa;
+	padding: 5px;
+	text-decoration: none;
+	color: #fff;
+	top: 12px;
+	font-size: 14px;
+	margin: 3px;
+}
+.accept-req a:hover { background: #ccc; }
+
+/* 
+	Form User sign up and login 
+	Design form user input
+*/
+
+input[type=text], input[type=password], input[type=email] {
+	width: 100%;
+	border: 1px solid #ccc;
+	margin: 8px 0;
+	outline: none;
+	padding: 8px;
+	box-sizing: border-box;
+	transition: .3s;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+	border-color: dodgerBlue;
+	box-shadow: 0 0 8px 0 dodgerBlue;
+}
+.inputWithIcon input[type=text], input[type=password], input[type=email] {
+	padding-left: 40px;
+}
+.inputWithIcon {
+	position: relative;
+}
+.inputWithIcon i {
+	position: absolute;
+	left: 0;
+	top: 8px;
+	padding: 9px 8px;
+	color: #aaa;
+	transition: .3s;
+}
+.inputWithIcon input[type=text]:focus + i {
+	color: dodgerBlue;
+}
+.inputWithIcon input[type=password]:focus + i {
+	color: dodgerBlue;
+}
+.inputWithIcon input[type=email]:focus + i {
+	color: dodgerBlue;
+}
+
+.btn {
+	width: 100%;
+	background: dodgerBlue;
+	color: #fff;
+	border: 2px solid dodgerBlue;
+	border-radius: 4px;
+	margin: 8px 0;
+	outline: none;
+	padding: 8px;
+	box-sizing: border-box;
+	transition: .3s;
+}
+.btn:hover {
+	background: #fff;
+	color: #000;
+}
+
